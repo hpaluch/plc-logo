@@ -7,7 +7,7 @@ Used hardware:
 
 Used software:
 * OS: `XP SP3` in Virtual Box VM (use Network Interface that can access
-  PLC via TCP/IP
+  PLC via TCP/IP)
 * `LOGO!Soft Comfort` version 8.2.1
 
 # Examples
