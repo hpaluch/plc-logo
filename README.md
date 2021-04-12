@@ -28,9 +28,9 @@ Status: early prototype
 # PLC Logo refuses to start on power up
 
 PLC Logo does not start, on pressing ESC it just prints
-"detecing..." and after a while fall to sleep again.
+"detecting..." and after a while fall to sleep again.
 
-Cause: To low power supply voltage (encountered with 9V Supply, which is of
+Cause: Too low power supply voltage (encountered with 9V Supply, which is of
 course out of specs)
 
 Solution: Use proper 12V Supply.
