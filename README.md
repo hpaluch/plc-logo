@@ -14,10 +14,17 @@ Used software:
 
 ## Staircase timer
 
-![PLC Logo Staircase timer](https://github.com/hpaluch/plc-logo/blob/master/assets/plc-logo-staircase-switch-diagram.png?raw=true)
-
 Stairway light control using Push-button. Also
 uses Base Module (BM) display to show status.
+
+Diagram: 
+
+![PLC Logo Staircase timer diagram](https://github.com/hpaluch/plc-logo/blob/master/assets/plc-logo-staircase-switch-diagram.png?raw=true)
+
+Prototype (low-voltage bulb) photo:
+
+![PLC Logo Staircase timer photo](https://github.com/hpaluch/plc-logo/blob/master/assets/plc-logo-starcaise-photo.jpg?raw=true)
+
 
 File: `StairCaseSwitch.lsc` 
 
