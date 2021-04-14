@@ -36,6 +36,10 @@ Staircase timer where interval is set
 by Potentiometer (5KOHm) - using Analog Input
 of LOGO 12/24RCE.
 
+Most important component is "Analog Amplifier" where I set:
+- Offset: `10` (was `0`) - to have minimum timeout of 10 seconds (was `0`)
+- Gain: `0.3` (was `1.0`) -  to have maximum timeout 300+10 (310 seconds).
+
 File: `StairCaseSwitchWithPot.lsc` 
 
 Status: early prototype
