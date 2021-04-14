@@ -40,6 +40,15 @@ File: `StairCaseSwitchWithPot.lsc`
 
 Status: early prototype
 
+Diagram: 
+
+![PLC Logo Staircase timer with POT diagram](https://github.com/hpaluch/plc-logo/blob/master/assets/plc-logo-staircase-switch-with-pot-diagram.png?raw=true)
+
+Prototype photo:
+
+![PLC Logo Staircase timer with POT photo](https://github.com/hpaluch/plc-logo/blob/master/assets/plc-logo-starcaise-pot-photo.jpg?raw=true)
+
+
 #
 # Troubleshooting
 
