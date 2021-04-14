@@ -42,11 +42,15 @@ Status: early prototype
 
 Diagram: 
 
-![PLC Logo Staircase timer with POT diagram](https://github.com/hpaluch/plc-logo/blob/master/assets/plc-logo-staircase-switch-with-pot-diagram.png?raw=true)
+![PLC Logo Staircase timer with POT diagram](https://github.com/hpaluch/plc-logo/blob/master/assets/staircase-with-pot/plc-logo-staircase-switch-with-pot-diagram.png?raw=true)
 
 Prototype photo:
 
-![PLC Logo Staircase timer with POT photo](https://github.com/hpaluch/plc-logo/blob/master/assets/plc-logo-starcaise-pot-photo.jpg?raw=true)
+![PLC Logo Staircase timer with POT photo](https://github.com/hpaluch/plc-logo/blob/master/assets/staircase-with-pot/plc-logo-starcaise-pot-photo.jpg?raw=true)
+
+And schema (created in KiCAD):
+
+![PLC Logo Staircase timer with POT schema](https://github.com/hpaluch/plc-logo/blob/master/assets/staircase-with-pot/plc-with-pot-schem.png?raw=true)
 
 
 #

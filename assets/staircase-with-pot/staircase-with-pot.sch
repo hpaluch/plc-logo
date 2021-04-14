@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 6076B471
+P 1550 2950
+F 0 "#PWR?" H 1550 2700 50  0001 C CNN
+F 1 "GND" H 1555 2777 50  0000 C CNN
+F 2 "" H 1550 2950 50  0001 C CNN
+F 3 "" H 1550 2950 50  0001 C CNN
+	1    1550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT R1
+U 1 1 6076C802
+P 3400 1350
+F 0 "R1" V 3193 1350 50  0000 C CNN
+F 1 "5kOhm" V 3284 1350 50  0000 C CNN
+F 2 "" H 3400 1350 50  0001 C CNN
+F 3 "~" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Lamp B1
+U 1 1 6076FFE2
+P 2650 3550
+F 0 "B1" H 2778 3596 50  0000 L CNN
+F 1 "Lamp" H 2778 3505 50  0000 L CNN
+F 2 "" V 2650 3650 50  0001 C CNN
+F 3 "~" V 2650 3650 50  0001 C CNN
+	1    2650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:VDC V?
+U 1 1 60775BE7
+P 1550 2400
+F 0 "V?" H 1680 2446 50  0000 L CNN
+F 1 "+12V 2A" H 1680 2355 50  0000 L CNN
+F 2 "" H 1550 2400 50  0001 C CNN
+F 3 "~" H 1550 2400 50  0001 C CNN
+F 4 "Y" H 1550 2400 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 1550 2400 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(1)" H 1680 2309 50  0001 L CNN "Spice_Model"
+	1    1550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60776EB3
+P 2050 1750
+F 0 "SW?" H 2050 2035 50  0000 C CNN
+F 1 "Light ON" H 2050 1944 50  0000 C CNN
+F 2 "" H 2050 1950 50  0001 C CNN
+F 3 "~" H 2050 1950 50  0001 C CNN
+	1    2050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Q1
+U 1 1 6077787A
+P 2550 3050
+F 0 "Q1" V 2514 2862 50  0000 R CNN
+F 1 "LOGO 12/24RCE Relay Q1" V 2423 2862 50  0000 R CNN
+F 2 "" H 2550 3050 50  0001 C CNN
+F 3 "~" H 2550 3050 50  0001 C CNN
+	1    2550 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 60777E83
+P 2900 2350
+F 0 "J1" V 3025 2296 50  0000 C CNN
+F 1 "LOGO 12/24RCE - Top" V 3116 2296 50  0000 C CNN
+F 2 "" H 2900 2350 50  0001 C CNN
+F 3 "~" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1550 2950 1550 2750
+Wire Wire Line
+	1550 2200 1550 2150
+Wire Wire Line
+	1550 1750 1850 1750
+Wire Wire Line
+	2500 2150 1550 2150
+Connection ~ 1550 2150
+Wire Wire Line
+	1550 2150 1550 1750
+Wire Wire Line
+	1550 2750 2150 2750
+Wire Wire Line
+	2150 2750 2150 2000
+Wire Wire Line
+	2150 2000 2600 2000
+Wire Wire Line
+	2600 2000 2600 2150
+Connection ~ 1550 2750
+Wire Wire Line
+	1550 2750 1550 2600
+Wire Wire Line
+	2250 1750 2700 1750
+Wire Wire Line
+	2700 1750 2700 2150
+Wire Wire Line
+	2150 2750 2150 3300
+Wire Wire Line
+	2150 3300 2550 3300
+Wire Wire Line
+	2550 3300 2550 3250
+Connection ~ 2150 2750
+Wire Wire Line
+	2650 3250 2650 3350
+Wire Wire Line
+	2650 3800 1100 3800
+Wire Wire Line
+	1100 3800 1100 1750
+Wire Wire Line
+	1100 1750 1550 1750
+Connection ~ 1550 1750
+Wire Wire Line
+	3250 1350 1100 1350
+Wire Wire Line
+	1100 1350 1100 1750
+Connection ~ 1100 1750
+Wire Wire Line
+	3550 1350 3550 2750
+Wire Wire Line
+	3550 2750 2150 2750
+Wire Wire Line
+	3400 2150 3400 1500
+Text Label 3400 1950 1    50   ~ 0
+I8_AI2
+Text Label 2300 2150 0    50   ~ 0
+L+
+Text Label 2300 2000 0    50   ~ 0
+M
+Text Label 2300 1750 0    50   ~ 0
+I1
+Wire Wire Line
+	2650 3800 2650 3750
+$EndSCHEMATC
