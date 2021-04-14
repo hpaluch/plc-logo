@@ -12,7 +12,7 @@ Used software:
 
 # Examples
 
-## Staircase timer
+## Staircase timer - basic
 
 Stairway light control using Push-button. Also
 uses Base Module (BM) display to show status.
@@ -30,6 +30,17 @@ File: `StairCaseSwitch.lsc`
 
 Status: early prototype
 
+## Staircase timer - with potentiometer
+
+Staircase timer where interval is set
+by Potentiometer (5KOHm) - using Analog Input
+of LOGO 12/24RCE.
+
+File: `StairCaseSwitchWithPot.lsc` 
+
+Status: early prototype
+
+#
 # Troubleshooting
 
 # PLC Logo refuses to start on power up
